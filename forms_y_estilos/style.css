@@ -2,15 +2,15 @@
 :root {
   --primario: #8b5cf6;
   --primario-oscuro: #1d4ed8;
-  --texto: #1f2937;
-  --texto-suave: #6b7280;
-  --borde: #d1d5db;
-  --fondo: #f9fafb;
-  --blanco: #ffffff;
-  --error: #dc2626;
-  --exito: #16a34a;
+  --texto: #fafcff;
+  --texto-suave: #0a64ff;
+  --borde: #ffffff;
+  --fondo: #370347;
+  --blanco: #000000;
+  --error: #ff0909;
+  --exito: #16dd58;
   --radio: 20px;
-  --sombra: 0 20px 20px rgba(0,0,0,0.08);
+  --sombra: 0 20px 20px rgba(248, 75, 6, 0.08);
 }
 
 * {
@@ -43,7 +43,7 @@ body {
 /* === Encabezado === */
 .encabezado {
   background: var(--primario);
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 30px 40px;
 }
 
@@ -216,7 +216,7 @@ select {
 
 .btn-primario {
   background: var(--primario);
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
 }
 
